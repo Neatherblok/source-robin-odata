@@ -1,0 +1,154 @@
+{
+  "type": "object",
+  "required": [
+    "AcquisitionDate",
+    "AnswerDateTime",
+    "AnswerPersonUniqueId",
+    "AnswerState",
+    "ArchiveDateTime",
+    "ArchivePersonUniqueId",
+    "Category_UniqueId",
+    "CreationDateTime",
+    "Customer_UniqueId",
+    "ExternalIdentifier",
+    "Guid",
+    "InboxChannelId",
+    "InboxCustomerSince",
+    "InboxExternalIdentifier",
+    "InboxNumberOfOrders",
+    "InboxOwnerPersonUniqueId",
+    "InboxSentiment",
+    "InboxTotalRevenue",
+    "InboxUserHasAnswered",
+    "LastTagDateTime",
+    "LastUpdatedDateTime",
+    "LatestExternalMessageDateTime",
+    "LinkedOrderNumbers",
+    "Referrer",
+    "RetentionDate",
+    "ServiceLevelOrange",
+    "ServiceLevelRed",
+    "SnoozeDateTime",
+    "SnoozeInInboxDateTime",
+    "SnoozeServiceLevelRedDateTime",
+    "SnoozeState",
+    "StartDateTime",
+    "State",
+    "Subject",
+    "UniqueId",
+    "WebStore_UniqueId"
+  ],
+  "properties": {
+    "AcquisitionDate": {
+      "type": "string"
+    },
+    "AnswerDateTime": {
+      "type": "date-time"
+    },
+    "AnswerPersonUniqueId": {
+      "type": "string"
+    },
+    "AnswerState": {
+      "type": "string"
+    },
+    "ArchiveDateTime": {
+      "type": "date-time"
+    },
+    "ArchivePersonUniqueId": {
+      "type": "string"
+    },
+    "Category_UniqueId": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "Customer_UniqueId": {
+      "type": "string"
+    },
+    "ExternalIdentifier": {
+      "type": "string"
+    },
+    "Evaluation_Id": {
+      "type": "string"
+    },
+    "Guid": {
+      "type": "string"
+    },
+    "InboxChannelId": {
+      "type": "string"
+    },
+    "InboxCustomerSince": {
+      "type": "string"
+    },
+    "InboxExternalIdentifier": {
+      "type": "string"
+    },
+    "InboxNumberOfOrders": {
+      "type": "long"
+    },
+    "InboxOwnerPersonUniqueId": {
+      "type": "string"
+    },
+    "InboxSentiment": {
+      "type": "string"
+    },
+    "InboxTotalRevenue": {
+      "type": "string"
+    },
+    "InboxUserHasAnswered": {
+      "type": "boolean"
+    },
+    "LastTagDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "LatestExternalMessageDateTime": {
+      "type": "date-time"
+    },
+    "LinkedOrderNumbers": {
+      "type": "string"
+    },
+    "Referrer": {
+      "type": "string"
+    },
+    "RetentionDate": {
+      "type": "string"
+    },
+    "ServiceLevelOrange": {
+      "type": "string"
+    },
+    "ServiceLevelRed": {
+      "type": "string"
+    },
+    "SnoozeDateTime": {
+      "type": "date-time"
+    },
+    "SnoozeInInboxDateTime": {
+      "type": "date-time"
+    },
+    "SnoozeServiceLevelRedDateTime": {
+      "type": "date-time"
+    },
+    "SnoozeState": {
+      "type": "string"
+    },
+    "StartDateTime": {
+      "type": "date-time"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "WebStore_UniqueId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "Status",
+    "Conversation_UniqueId",
+    "Person_UniqueId",
+    "UniqueId",
+    "CreationDateTime",
+    "LastUpdatedDateTime"
+  ],
+  "properties": {
+    "Status": {
+      "type": "string"
+    },
+    "Conversation_UniqueId": {
+      "type": "string"
+    },
+    "Person_UniqueId": {
+      "type": "string"
+    },
+    "Unique_Id": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "streams": [
+    {
+      "stream": {
+        "name": "accounts",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "categories",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "channels",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "channel_accounts",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "conversation_actions",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh", "incremental"],
+        "source_defined_cursor": true,
+        "default_cursor_field": ["CreationDateTime"]
+      },
+      "sync_mode": "incremental",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "append"
+    },
+    {
+      "stream": {
+        "name": "conversation_tags",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh", "incremental"],
+        "source_defined_cursor": true,
+        "default_cursor_field": ["CreationDateTime"]
+      },
+      "sync_mode": "incremental",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "append"
+    },
+    {
+      "stream": {
+        "name": "conversations",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh", "incremental"],
+        "source_defined_cursor": true,
+        "default_cursor_field": ["CreationDateTime"]
+      },
+      "sync_mode": "incremental",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "append"
+    },
+    {
+      "stream": {
+        "name": "daily_opening_hours",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "messages",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh", "incremental"],
+        "source_defined_cursor": true,
+        "default_cursor_field": ["CreationDateTime"]
+      },
+      "sync_mode": "incremental",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "append"
+    },
+    {
+      "stream": {
+        "name": "participations",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "people",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "profiles",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "sales_performances",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "service_hours_templates",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "tag_categories",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "tags",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "webstore_users",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "webstores",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "source_defined_primary_key": [["UniqueId"]],
+      "destination_sync_mode": "overwrite"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "type": "object",
+  "required": [
+    "Actor_UniqueId",
+    "AutoMessageContent",
+    "BccParticipants",
+    "CcParticipants",
+    "ChannelAccount_UniqueId",
+    "CollaborationMode",
+    "Conversation_UniqueId",
+    "CreationDateTime",
+    "Discriminator",
+    "ExternalCollaborationParticipants",
+    "IsPrivate",
+    "LastUpdatedDateTime",
+    "OrderId",
+    "Origin_UniqueId",
+    "Rating",
+    "RatingDateTime",
+    "Revenue",
+    "Scope",
+    "Sender_UniqueId",
+    "SenderWasOwner",
+    "SentDateTime",
+    "Subject",
+    "Subject_UniqueId",
+    "ToParticipants",
+    "UniqueId"
+  ],
+  "properties": {
+    "Actor_UniqueId": {
+      "type": "string"
+    },
+    "AutoMessageContent": {
+      "type": "string"
+    },
+    "BccParticipants": {
+      "type": "string"
+    },
+    "CcParticipants": {
+      "type": "string"
+    },
+    "ChannelAccount_UniqueId": {
+      "type": "string"
+    },
+    "CollaborationMode": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    },
+    "Conversation_UniqueId": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "Discriminator": {
+      "type": "string"
+    },
+    "ExternalCollaborationParticipants": {
+      "type": "string"
+    },
+    "IsPrivate": {
+      "type": "boolean"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "OrderId": {
+      "type": "string"
+    },
+    "Origin_UniqueId": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "string"
+    },
+    "RatingDateTime": {
+      "type": "string"
+    },
+    "Revenue": {
+      "type": "string"
+    },
+    "Scope": {
+      "type": "string"
+    },
+    "Sender_UniqueId": {
+      "type": "string"
+    },
+    "SenderWasOwner": {
+      "type": "boolean"
+    },
+    "SentDateTime": {
+      "type": "date-time"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Subject_UniqueId": {
+      "type": "string"
+    },
+    "ToParticipants": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

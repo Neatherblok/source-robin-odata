@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": ["Action", "ActionDateTime", "Conversation_UniqueId", "CreationDateTime", "LastUpdatedDateTime", "UniqueId"],
+  "properties": {
+    "Action": {
+      "type": "string"
+    },
+    "ActionDateTime": {
+      "type": "date-time"
+    },
+    "Conversation_UniqueId": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

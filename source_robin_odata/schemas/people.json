@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "required": [
+    "Account_UniqueId",
+    "Avatar",
+    "Avatar128",
+    "CreationDateTime",
+    "Discriminator",
+    "EmailAddress",
+    "ExternalIdentifier",
+    "FirstName",
+    "LastName",
+    "LastUpdatedDateTime",
+    "MaxChats",
+    "MaxWaitingChats",
+    "UniqueId",
+    "UserPresence"
+  ],
+  "properties": {
+    "Account_UniqueId": {
+      "type": "string"
+    },
+    "Avatar": {
+      "type": "string"
+    },
+    "Avatar128": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "Discriminator": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    },
+    "ExternalIdentifier": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "MaxChats": {
+      "type": "long"
+    },
+    "MaxWaitingChats": {
+      "type": "long"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "UserPresence": {
+      "type": "string"
+    }
+  }
+}

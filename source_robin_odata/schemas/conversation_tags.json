@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "required": ["Conversation_UniqueId", "CreationDateTime", "LastUpdatedDateTime", "Tag_UniqueId", "UniqueId", "CreationAction", "State", "Actor_UniqueId"],
+  "properties": {
+    "Conversation_UniqueId": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Tag_UniqueId": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "CreationAction": {
+      "type": "integer"
+    },
+    "State": {
+      "type": "integer"
+    },
+    "Actor_UniqueId": {
+      "type": "string"
+    }
+  }
+}

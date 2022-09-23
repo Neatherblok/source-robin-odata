@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "required": [
+    "Channel_Id",
+    "CreationDateTime",
+    "ExternalIdentifier",
+    "LastUpdatedDateTime",
+    "Person_UniqueId",
+    "PhoneNumber",
+    "ScreenName",
+    "UniqueId"
+  ],
+  "properties": {
+    "Channel_Id": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "ExternalIdentifier": {
+      "type": "string"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Person_UniqueId": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "ScreenName": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

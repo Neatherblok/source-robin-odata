@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": ["Channel_Id", "CreationDateTime", "ExternalIdentifier", "LastUpdatedDateTime", "Name", "UniqueId"],
+  "properties": {
+    "Channel_Id": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "ExternalIdentifier": {
+      "type": "string"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Name":{
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

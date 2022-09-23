@@ -1,0 +1,43 @@
+{
+  "documentationUrl": "https://api.robinhq.com/api/javascript.htm",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Robin Odata Spec",
+    "type": "object",
+    "required": ["username", "password", "start_date"],
+    "additionalProperties": false,
+    "properties": {
+      "username": {
+        "type": "string",
+        "title": "Username",
+        "description": "The username required to log in on the ROBIN API.",
+        "order": 0
+      },
+      "password": {
+        "type": "string",
+        "title": "Password",
+        "description": "The password required to log in on the ROBIN API.",
+        "airbyte_secret": true,
+        "order": 1
+      },
+      "start_date": {
+        "description": "The date the sync should start from.",
+        "examples": ["2021-01-10"],
+        "order": 2,
+        "title": "Start Date",
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}\\-(0[1-9]|1[012])\\-(0[1-9]|[12][0-9]|3[01])$"
+      },
+      "end_date": {
+        "description": "The date the sync should end. If let empty the sync will run to the current date.",
+        "examples": ["2022-03-01"],
+        "order": 3,
+        "title": "End Date",
+        "type": "string",
+        "format": "date",
+        "pattern": "^(?:(\\d{4}\\-(0[1-9]|1[012])\\-(0[1-9]|[12][0-9]|3[01]))|)$"
+      }
+    }
+  }
+}

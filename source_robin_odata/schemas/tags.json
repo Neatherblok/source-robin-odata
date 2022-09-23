@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "Active",
+    "CreationDateTime",
+    "LastUpdatedDateTime",
+    "Name",
+    "TagCategory_UniqueId",
+    "UniqueId"
+  ],
+  "properties": {
+    "Active": {
+      "type": "boolean"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "TagCategory_UniqueId": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

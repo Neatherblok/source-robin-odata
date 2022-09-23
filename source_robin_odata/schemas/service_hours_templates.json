@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "Active",
+    "CreationDateTime",
+    "LastUpdatedDateTime",
+    "ServiceLevelInMinutes",
+    "TimeZoneId",
+    "Uniqueid"
+  ],
+  "properties": {
+    "Active": {
+      "type": "boolean"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "ServiceLevelInMinutes": {
+      "type": "long"
+    },
+    "TimeZoneId": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

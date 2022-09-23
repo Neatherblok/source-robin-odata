@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "sync_mode": "incremental",
+  "required": ["EmailAddress", "Active", "UniqueId", "CreationDateTime", "LastUpdatedDateTime"],
+  "properties": {
+    "EmailAddress": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    }
+  }
+}

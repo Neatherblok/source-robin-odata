@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["ChannelName", "CreationDateTime", "Id", "IsCustomChannel", "LastUpdatedDateTime"],
+  "properties": {
+    "ChannelName": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "IsCustomChannel": {
+      "type": "boolean"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    }
+  }
+}

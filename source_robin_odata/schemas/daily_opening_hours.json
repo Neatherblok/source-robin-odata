@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "required": [
+    "CreationDateTime",
+    "DayOfTheWeek",
+    "FromTime",
+    "LastUpdatedDateTime",
+    "ServiceHoursTemplate_UniqueId",
+    "ToTime",
+    "UniqueId"
+  ],
+  "properties": {
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "DayOfTheWeek": {
+      "type": "string"
+    },
+    "FromTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "ServiceHoursTemplate_UniqueId": {
+      "type": "string"
+    },
+    "ToTime": {
+      "type": "date-time"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

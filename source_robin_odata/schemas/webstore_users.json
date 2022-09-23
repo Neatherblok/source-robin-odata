@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "required": [
+    "Chat",
+    "CreationDateTime",
+    "LastUpdatedDateTime",
+    "Mail",
+    "UniqueId",
+    "User_UniqueId",
+    "Webstore_Uniqueid",
+    "WebStoreOwner"
+  ],
+  "properties": {
+    "Chat": {
+      "type": "boolean"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Mail": {
+      "type": "boolean"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "User_UniqueId": {
+      "type": "string"
+    },
+    "Webstore_Uniqueid": {
+      "type": "string"
+    },
+    "WebStoreOwner": {
+      "type": "boolean"
+    }
+  }
+}

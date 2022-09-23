@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "required": [
+    "AcquisitionCounter",
+    "AcquisitionProfit",
+    "AcquisitionRevenue",
+    "CreationDateTime",
+    "DayIndicator",
+    "LastUpdatedDateTime",
+    "Person_UniqueId",
+    "RetentionCounter",
+    "RetentionProfit",
+    "RetentionRevenue",
+    "UniqueId"
+  ],
+  "properties": {
+    "AcquisitionCounter": {
+      "type": "long"
+    },
+    "AcquisitionProfit": {
+      "type": "double"
+    },
+    "AcquisitionRevenue": {
+      "type": "double"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "DayIndicator": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Person_UniqueId": {
+      "type": "string"
+    },
+    "RetentionCounter": {
+      "type": "long"
+    },
+    "RetentionProfit": {
+      "type": "double"
+    },
+    "RetentionRevenue": {
+      "type": "double"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

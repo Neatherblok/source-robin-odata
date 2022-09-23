@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["Name", "UniqueId", "CreationDateTime", "LastUpdatedDateTime"],
+  "properties": {
+    "Active": {
+      "type": "boolean"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    }
+  }
+}

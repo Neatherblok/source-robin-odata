@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "required": [
+    "Active",
+    "AddressOne",
+    "AddressTwo",
+    "CreationDateTime",
+    "DefaultStore",
+    "LastUpdatedDateTime",
+    "OnlineIconUrlLarge",
+    "OnlineNotificationEmailReplyFromEmailAddress",
+    "OnlineNotificationEmailReplyFromSenderName",
+    "OnlineNotificationEmailReturnUrl",
+    "PhoneNumber",
+    "SelfServiceLanguage",
+    "ServiceHoursTemplate_UniqueId",
+    "UniqueId",
+    "WebStoreName"
+  ],
+  "properties": {
+    "Active": {
+      "type": "boolean"
+    },
+    "AddressOne": {
+      "type": "string"
+    },
+    "AddressTwo": {
+      "type": "string"
+    },
+    "CreationDateTime": {
+      "type": "date-time"
+    },
+    "DefaultStore": {
+      "type": "boolean"
+    },
+    "LastUpdatedDateTime": {
+      "type": "date-time"
+    },
+    "OnlineIconUrlLarge": {
+      "type": "string"
+    },
+    "OnlineNotificationEmailReplyFromEmailAddress": {
+      "type": "string"
+    },
+    "OnlineNotificationEmailReplyFromSenderName": {
+      "type": "string"
+    },
+    "OnlineNotificationEmailReturnUrl": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "SelfServiceLanguage": {
+      "type": "string"
+    },
+    "ServiceHoursTemplate_UniqueId": {
+      "type": "string"
+    },
+    "UniqueId": {
+      "type": "string"
+    },
+    "WebStoreName": {
+      "type": "string"
+    }
+  }
+}

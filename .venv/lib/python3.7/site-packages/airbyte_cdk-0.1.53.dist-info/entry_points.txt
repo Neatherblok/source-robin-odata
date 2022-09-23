@@ -1,0 +1,2 @@
+[console_scripts]
+base-python = base_python.entrypoint:main
